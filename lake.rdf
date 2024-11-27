@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:LocationalProfileDocument rdf:about="http://localhost/WS/lake.rdf">
+    <rdfs:label> Lake in North Sumatra</rdfs:label>
+    <foaf:maker rdf:resource="http://localhost/WS/"/>
+    <foaf:primaryTopic rdf:resource="http://localhost/WS/"/>
+  </foaf:LocationalProfileDocument>
+
+  <foaf:Location rdf:about="http://localhost/WS/">
+    <foaf:name>Lake in North Sumatra</foaf:name>
+    <foaf:type>lake</foaf:type>
+    <owl:sameAs>
+      <foaf:Location rdf:about="http://dbpedia.org/resource/Lake_Toba">
+        <rdfs:label> Lake Toba</rdfs:label>
+        <foaf:homepage rdf:resource="http://dbpedia.org/resource/Lake_Toba"/>
+      </foaf:Location>
+    </owl:sameAs>
+    <owl:sameAs>
+      <foaf:Location rdf:about="http://dbpedia.org/resource/Lake_Sidihoni">
+        <rdfs:label> Lake Sidihoni</rdfs:label>
+        <foaf:homepage rdf:resource="http://dbpedia.org/resource/Lake_Sidihoni"/>
+      </foaf:Location>
+    </owl:sameAs>
+
+
+  </foaf:Location>
+</rdf:RDF>
+

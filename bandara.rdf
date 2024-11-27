@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:LocationalProfileDocument rdf:about="http://localhost/WS/bandara.rdf">
+    <rdfs:label> Soekarno–Hatta International Airport</rdfs:label>
+    <foaf:maker rdf:resource="http://localhost/WS/"/>
+    <foaf:primaryTopic rdf:resource="http://localhost/WS/"/>
+  </foaf:LocationalProfileDocument>
+
+  <foaf:Location rdf:about="http://localhost/WS/">
+    <foaf:name>Soekarno–Hatta International Airport</foaf:name>
+    <foaf:title>Airport</foaf:title>
+    <foaf:givenName>Justin</foaf:givenName>
+    <foaf:familyName>Wilson</foaf:familyName>
+    <owl:sameAs>
+      <foaf:Location rdf:about="http://dbpedia.org/resource/Soekarno–Hatta_International_Airport">
+        <rdfs:label> Soekarno–Hatta International Airport</rdfs:label>
+        <foaf:homepage rdf:resource="http://dbpedia.org/resource/Soekarno–Hatta_International_Airport"/>
+      </foaf:Location>
+    </owl:sameAs>
+
+
+  </foaf:Location>
+</rdf:RDF>
+
